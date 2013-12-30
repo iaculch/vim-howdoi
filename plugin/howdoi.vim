@@ -9,6 +9,7 @@ command! Howdoi call s:HowDoI()
 fun! s:HowDoI()
   "run howdoi with text from current line
   let currentLine = getline('.')
+  "strip unnecessary whitespace
   let question = substitute(currentLine, '^\s*\(.\{-}\)\s*$', '\1', '')
   let command = 'howdoi ' . question
   let result = system(command)
