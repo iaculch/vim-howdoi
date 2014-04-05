@@ -8,6 +8,9 @@ Laurent's seems to be the most popular. You can check it out here:
 
 https://github.com/laurentgoudet/vim-howdoi
 
+The implementation I have written is purely in vimscript and does not require
+vim to be compiled with python support.
+
 ------------------------------------------------------------
 
 Search StackOverflow and paste code snippets, all within vim
