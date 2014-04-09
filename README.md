@@ -4,7 +4,8 @@ vim-howdoi
 This is a simple vim plugin I wrote during my internship over the summer,
 My friends Blake and Laurent also wrote their own implementations of this plugin.
 
-Laurent's seems to be the most popular. You can check it out here:
+Laurent's seems to be the most popular, and will be the one that I will be making
+contributions to in the future. You can check it out here:
 
 https://github.com/laurentgoudet/vim-howdoi
 
